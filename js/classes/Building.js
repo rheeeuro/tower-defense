@@ -1,5 +1,5 @@
-import Projectile from "./Projectile";
-import Sprite from "./Sprite";
+import Projectile from "./Projectile.js";
+import Sprite from "./Sprite.js";
 
 export default class Building extends Sprite {
   constructor({ position = { x: 0, y: 0 } }) {

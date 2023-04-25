@@ -1,4 +1,4 @@
-import Sprite from "./Sprite";
+import Sprite from "./Sprite.js";
 
 export default class Projectile extends Sprite {
   constructor({ position = { x: 0, y: 0 }, enemy }) {

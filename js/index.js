@@ -1,9 +1,9 @@
-import waypoints from "./waypoints";
-import placementTilesData from "./placementTilesData";
-import PlacementTile from "./classes/PlacementTile";
-import Enemy from "./classes/Enemy";
-import Building from "./classes/Building";
-import Sprite from "./classes/Sprite";
+import waypoints from "./waypoints.js";
+import placementTilesData from "./placementTilesData.js";
+import PlacementTile from "./classes/PlacementTile.js";
+import Enemy from "./classes/Enemy.js";
+import Building from "./classes/Building.js";
+import Sprite from "./classes/Sprite.js";
 
 const canvas = document.querySelector("canvas");
 const c = canvas.getContext("2d");

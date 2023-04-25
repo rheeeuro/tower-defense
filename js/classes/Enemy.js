@@ -1,5 +1,5 @@
-import waypoints from "../waypoints";
-import Sprite from "./Sprite";
+import waypoints from "../waypoints.js";
+import Sprite from "./Sprite.js";
 
 export default class Enemy extends Sprite {
   constructor({ position = { x: 0, y: 0 } }) {
